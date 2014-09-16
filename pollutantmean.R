@@ -33,5 +33,5 @@ pollutantmean <- function(directory, pollutant,id=1:332){
   }
   #return the result
   mean <- s/c
-  mean
+  round(mean, digits=3)
 }
